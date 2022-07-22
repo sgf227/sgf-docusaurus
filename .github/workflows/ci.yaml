@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         # checkout action 主要用于向 github 仓库拉取源代码
         # https://github.com/actions/checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
         with:
           ref: main
       - name: Cache
